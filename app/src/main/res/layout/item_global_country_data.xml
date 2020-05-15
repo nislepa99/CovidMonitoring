@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@android:color/holo_blue_light"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/countryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        tools:text="Country"/>
+
+    <TextView
+        android:id="@+id/countryNewConfirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="New confirmed: 10"/>
+
+    <TextView
+        android:id="@+id/countryTotalConfirmed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="Total confirmed: 0"/>
+
+    <TextView
+        android:id="@+id/countryNewDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="New deaths: 0"/>
+
+    <TextView
+        android:id="@+id/countryTotalDeaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="Total deaths: 0"/>
+
+    <TextView
+        android:id="@+id/countryNewRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="New recovered: 0"/>
+
+    <TextView
+        android:id="@+id/countryTotalRecovered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        tools:text="Total recovered: 0"/>
+
+
+
+
+</LinearLayout>

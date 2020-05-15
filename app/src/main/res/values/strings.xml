@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CovidMonitoring</string>
+
+    <string name="new_confirmed_template">New Confirmed: %d</string>
+    <string name="total_deaths_template">Total Deaths: %d</string>
+    <string name="total_recovered_template">Total Recovered: %d</string>
+    <string name="new_deaths_template">New Deaths: %d</string>
+    <string name="new_recovered_template">New Recovered: %d</string>
+    <string name="total_confirmed_template">Total Confirmed: %d</string>
+
+</resources>
